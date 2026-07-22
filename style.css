@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #111;
+  color: white;
+}
+
+/* Navbar */
+
+nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+  background-color: #111;
+  color: white;
+  position: fixed;
+  z-index: 1000;
+}
+
+nav h2 {
+  margin-top: 0.5vw;
+  font-size: 30px;
+}
+
+nav h2 span {
+  color: blueviolet;
+}
+
+.nav-part2 {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-part2 a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-part2 a:hover {
+  color: blueviolet;
+}
+
+/* Hero Section */
+
+.page1 {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5vw;
+  padding-top: 120px;
+  background:
+    radial-gradient(
+      circle at 20% 50%,
+      rgba(90, 40, 180, 0.25),
+      transparent 35%
+    ),
+    radial-gradient(circle at 80% 50%, rgba(30, 80, 180, 0.2), transparent 35%),
+    #080808;
+  color: white;
+}
+
+/* Left Part */
+
+.part1 {
+  width: 50%;
+}
+
+.page-bracket {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.page-bracket h5 {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.part1 h1 {
+  font-size: 55px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.part1 h1 i {
+  color: blueviolet;
+}
+
+.part1 p {
+  width: 80%;
+  color: #aaa;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Right Part */
+
+.part2 {
+  width: 40%;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.part2 input {
+  width: 70%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.part2 button {
+  width: 30%;
+  height: 5vh;
+  border: none;
+  border-radius: 8px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+/* Result */
+
+#result {
+  width: 100%;
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #151515;
+  border-radius: 8px;
+  text-align: center;
+  height: 10vh;
+}
+
+#result p {
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+#result a {
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#result a:hover {
+  text-decoration: underline;
+}
+
+/* Page 2 */
+
+.page2 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 5vw;
+  background:
+    radial-gradient(
+      circle at 20% 50%,
+      rgba(90, 40, 180, 0.25),
+      transparent 35%
+    ),
+    radial-gradient(circle at 80% 50%, rgba(30, 80, 180, 0.2), transparent 35%),
+    #080808;
+}
+
+.page2 > h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+/* Cards */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  width: 20rem;
+  min-height: 200px;
+  background-color: #151515 !important;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: blueviolet;
+}
+
+.card-body i {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #329078;
+  color: #080808;
+}
+
+.card-title {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card-text {
+  color: #aaa;
+  line-height: 1.6;
+  text-align: center;
+}
