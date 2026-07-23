@@ -4,11 +4,11 @@ A simple and responsive URL Shortener web application built using HTML, CSS, and
 
 ## 🚀 Live Demo
 
-![URL Shortener Preview](./Screenshot%202026-07-23%20155403.png)
+https://yugandharatech2025-parab.github.io/URLs-Shortner/
 
-## 📸 Preview
+## 🚀 Live Demo
 
-![URL Shortener Preview](Screenshot 2026-07-23 155403.png)
+[Click here to view the live website](https://yugandharatech2025-parab.github.io/URLs-Shortner/)
 
 ## ✨ Features
 
