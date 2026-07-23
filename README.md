@@ -6,6 +6,10 @@ A simple and responsive URL Shortener web application built using HTML, CSS, and
 
 https://yugandharatech2025-parab.github.io/URLs-Shortner/
 
+## 📸 Preview
+
+![URL Shortener Preview](screenshot.png)
+
 ## ✨ Features
 
 - Clean and user-friendly interface
