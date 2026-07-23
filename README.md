@@ -8,7 +8,7 @@ https://yugandharatech2025-parab.github.io/URLs-Shortner/
 
 ## 📸 Preview
 
-![URL Shortener Preview](screenshot.png)
+![URL Shortener Preview](Screenshot 2026-07-23 155403.png)
 
 ## ✨ Features
 
